@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+.idea/workspace.xml
+csv/
+tickets/generated/
+/target/
+.classpath
+.project
+.settings
+.lck
+/docker/mosquitto/data
+/docker/mosquitto/log
+/logs/metrics/**

@@ -1,0 +1,4 @@
+#MQTT Tester Configuration
+
+mqttBrokerAddress: 127.0.0.1
+mqttBrokerPort: 1883

@@ -1,0 +1,19 @@
+#MQTT Smart Object Configuration
+
+mqttBrokerAddress: 127.0.0.1
+mqttBrokerPort: 1883
+deviceNameSpace: com.iotbot.smartobject.dummy
+dummyResourcesNumber: 10
+dummyEventUpdateTimeMs: 10000
+dummyTelemetryUpdateTimeMs: 1000
+
+#Spcify the length of measurement payload.
+#If dummyRandomPayloadByteSize is set to 0 then the dummy sensor send a random numeric values.
+dummyRandomPayloadByteSize: 1
+dummyTotalTelemetryMessageLimit: 10000 #0 means no limit
+dummyDeviceTelemetryActive: false
+dummyResourceTelemetryActive: true
+dummyDeviceStartDelayMs: 5000
+
+mqttOutgoingClientQoS: 0
+mqttOutgoingClientRetainedMessages: false
